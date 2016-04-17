@@ -1,0 +1,40 @@
+body {
+
+}
+
+div {
+	/*border-style: solid;*/
+	border-width: 1px;
+	padding: 2px;
+}
+
+input {
+	padding: 2px;
+}
+
+
+
+.FormTitle {
+	width:33%;
+	margin-left: none;
+	margin-right: auto;
+}
+
+.FormInput {
+	width:33%;
+	margin-left: none;
+	margin-right: auto;
+	text-align: left;
+}
+
+.PileTitle {
+	width:24%;
+	display:inline-block;
+	text-align: center;
+}
+
+#BBForm {
+	display:none !important;
+	margin:none;
+	padding:none;
+}

@@ -1,0 +1,54 @@
+<html lang="en">
+	<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<style type="text/css">
+	
+</style>
+</head>
+<body>
+	<div id="PageSwitch"><a href="bountyhunter.html">Want make sum $$$?</a></div>
+	<div id="ReturningUser">
+	<form action="ReturningSubmitter.html">
+		To view an active post, put your post number here: <input type="text" name="ReturningUserNumber">
+	</form>
+	<div id="Welcome">
+	If you would like to post a new function request, please fill out the following form. 
+	</div>
+	<div id="PileForm">
+	<form action="PileSubmitSuccess.html">
+		<div id="FunctionTitleForm" class="FormTitle">Function Title</div>
+		<!-- Change size parameter on all single line <input>s to x% of the page -->
+		<div class="FormInput"><input type="text" name="FunctionTitle" size="20" alt="Please enter " required></div>
+		<div id="FunctionInputForm" class="FormTitle">Function Input Variables</div>
+		<div class="FormInput"><input type="text" name="FunctionInput" required></div>
+		<div id="FunctionOutputForm" class="FormTitle">Function Output Variables</div>
+		<div class="FormInput"><input type="text" name="FunctionOutput" required></div>
+		<div id="FunctionBBForm" class="FormTitle">Function Description</div>
+		<div class="FormInput"><div id="BBForm"><input type="text" name="FunctionBB" required></div><textarea rows="4" cols="50" name="comment" wrap="virtual" form=""></textarea></div>
+		<div id="BountyForm" class="FormTitle">Bounty Amount (BTC)</div>
+		<div class="FormInput"><input type="text" name="Bounty" required></div>
+		<div id="DeadlineForm" class="FormTitle">Deadline Date</div>
+		<div class="FormInput"><input type="text" name="Deadline" required></div>
+		<div id="WalletForm" class="FormTitle">Your Bitcoin Address</div>
+		<div class="FormInput"><input type="text" name="BitcoinAddress" maxlength="35" required></div>
+		<div id="EmailForm" class="FormTitle">Email Address</div>
+			<div class="FormInput">	<input type="text" name="EmailAddress" required>
+		</div>
+		<div id="DoneButton" class="FormInput"><input type="submit" value="Post" required></div>
+	</div>
+	<div id="Pile">
+		<div id="PileObject">
+			<div id="FunctionTitleTitle" class="PileTitle">Function Title</div>
+			<div id="LanguageTitle" class="PileTitle">Language</div>
+			<div id="DeadlineTitle" class="PileTitle">Deadline Date</div>
+			<div id="BountyTitle" class="PileTitle">Bounty Amount (BTC)</div>
+			<div id="FunctionTitle" class="PileTitle"></div>
+			<div id="Language" class="PileTitle"></div>
+			<div id="Deadline"class="PileTitle"></div>
+			<div id="Bounty" class="PileTitle"></div>
+		</div>
+	</div>
+</form>
+	<script src="main.js" type="text/javascript"></script>
+</body>
+</html>
