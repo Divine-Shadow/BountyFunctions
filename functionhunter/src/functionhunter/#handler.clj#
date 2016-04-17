@@ -22,6 +22,7 @@
   (GET  "/" [] (resource-response "index.html" {:root "public"}))
   (GET  "/widgets" [] (response [{:name "Test case"} {:name "I am Data!!!"}]))
   (GET  "/dean/:id" [id] (str "<h1>Hi Dean, your number is : " id "</h1>"))
+  (GET  "/submission" request (str request))
   (route/resources "/")
   (route/not-found "Page not found"))
 
